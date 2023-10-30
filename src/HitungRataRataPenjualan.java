@@ -9,6 +9,8 @@ public class HitungRataRataPenjualan {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Masukkan Nama Penjual");
+        String penjual = scanner.nextLine();
         System.out.print("Masukkan jumlah hari penjualan: ");
         int jumlahPenjualan = scanner.nextInt();
 
