@@ -15,6 +15,7 @@ public class HitungRataRataPenjualan {
         int jumlahPenjualan = scanner.nextInt();
 
         int totalPenjualan = 0;
+        System.out.println(penjual);
         for (int i = 1; i <= jumlahPenjualan; i++) {
             System.out.print("Masukkan Penghasilan penjualan barang pada hari ke-" + i + ": ");
             int penjualan = scanner.nextInt();
